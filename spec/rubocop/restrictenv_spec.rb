@@ -1,11 +1,7 @@
 # frozen_string_literal: true
 
-RSpec.describe Rubocop::Restrictenv do
-  it "has a version number" do
-    expect(Rubocop::Restrictenv::VERSION).not_to be nil
-  end
-
-  it "does something useful" do
-    expect(false).to eq(true)
+RSpec.describe RuboCop::Restrictenv do
+  it 'has a version number' do
+    expect(RuboCop::Restrictenv::VERSION).not_to be_nil
   end
 end

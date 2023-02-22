@@ -1,1 +1,4 @@
-# Write it!
+Restrictenv/NoEnvAccess:
+  Description: 'Prevent access to ENV. Use in combination with a .rubocop.yml exception to allow env access only in specific areas of your code.'
+  Enabled: pending
+  VersionAdded: '<<next>>'

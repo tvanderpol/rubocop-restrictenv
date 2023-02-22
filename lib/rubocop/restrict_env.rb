@@ -1,9 +1,9 @@
 # frozen_string_literal: true
 
-require_relative 'restrictenv/version'
+require_relative 'restrict_env/version'
 
 module RuboCop
-  module Restrictenv # :nodoc:
+  module RestrictEnv # :nodoc:
     class Error < StandardError; end
     PROJECT_ROOT   = Pathname.new(__dir__).parent.parent.expand_path.freeze
     CONFIG_DEFAULT = PROJECT_ROOT.join('config', 'default.yml').freeze

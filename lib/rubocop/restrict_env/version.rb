@@ -1,7 +1,7 @@
 # frozen_string_literal: true
 
 module RuboCop
-  module Restrictenv
+  module RestrictEnv
     VERSION = '0.1.0'
   end
 end

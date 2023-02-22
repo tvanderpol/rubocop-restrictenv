@@ -3,10 +3,10 @@
 require 'yaml'
 require 'rubocop'
 
-require_relative 'rubocop/restrictenv'
-require_relative 'rubocop/restrictenv/version'
-require_relative 'rubocop/restrictenv/inject'
+require_relative 'rubocop/restrict_env'
+require_relative 'rubocop/restrict_env/version'
+require_relative 'rubocop/restrict_env/inject'
 
-RuboCop::Restrictenv::Inject.defaults!
+RuboCop::RestrictEnv::Inject.defaults!
 
 require_relative 'rubocop/cop/restrictenv_cops'

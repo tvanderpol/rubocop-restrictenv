@@ -1,10 +1,10 @@
 # frozen_string_literal: true
 
-require_relative 'lib/rubocop/restrictenv/version'
+require_relative 'lib/rubocop/restrict_env/version'
 
 Gem::Specification.new do |spec|
   spec.name = 'rubocop-restrictenv'
-  spec.version = RuboCop::Restrictenv::VERSION
+  spec.version = RuboCop::RestrictEnv::VERSION
   spec.authors = ['Thomas van der Pol']
   spec.email = ['tvdp@hey.com']
 
